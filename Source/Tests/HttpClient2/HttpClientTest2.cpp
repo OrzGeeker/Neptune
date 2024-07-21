@@ -192,6 +192,8 @@ ClientThread::Run()
 int
 main(int argc, char** argv)
 {
+    printf("argc = %d", argc);
+    
     // parse args
     --argc; ++argv;
     bool         use_http_1_1 = false;

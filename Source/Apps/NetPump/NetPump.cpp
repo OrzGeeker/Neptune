@@ -669,6 +669,8 @@ main(int argc, char** argv)
         } while (NPT_SUCCEEDED(result));
     }
 
+    printf("offset = %ld", offset);
+    
     if (NPT_FAILED(result)) {
         printf("[%d] *******************\n", result);
         exit(1);

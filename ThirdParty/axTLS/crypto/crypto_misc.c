@@ -131,7 +131,7 @@ int get_file(const char *filename, uint8_t **buf)
  * - On Linux use /dev/urandom
  * - If none of these work then use a custom RNG.
  */
-EXP_FUNC void STDCALL RNG_initialize()
+EXP_FUNC void STDCALL RNG_initialize(void)
 {
 #if !defined(WIN32) && defined(CONFIG_USE_DEV_URANDOM)
     rng_fd = ax_open("/dev/urandom", O_RDONLY);

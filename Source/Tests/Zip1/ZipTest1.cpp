@@ -186,6 +186,7 @@ for (unsigned int t=0; t<sizeof(TestVectors)/sizeof(TestVectors[0]); t++) {
         NPT_DataBuffer check(v->uncompressed, v->uncompressed_len);
         CHECK(NPT_Zip::Inflate(buffer, out) == NPT_SUCCESS);
         CHECK(out == check);
+        printf("position = %llu", position);
     }
 }
 

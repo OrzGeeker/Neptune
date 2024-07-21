@@ -70,7 +70,7 @@ typedef struct {
 } SSL_DateTime;
 int SSL_DateTime_Before(const SSL_DateTime* t1, const SSL_DateTime* t2);
 void SSL_DateTime_Now(SSL_DateTime* now);
-uint64_t SSL_GetRandomSeed();
+uint64_t SSL_GetRandomSeed(void);
 
 #define STDCALL
 #define EXP_FUNC

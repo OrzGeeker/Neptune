@@ -2216,7 +2216,7 @@ void DISPLAY_ALERT(SSL *ssl, int alert)
 /**
  * Return the version of this library.
  */
-EXP_FUNC const char  * STDCALL ssl_version()
+EXP_FUNC const char  * STDCALL ssl_version(void)
 {
     static const char * axtls_version = AXTLS_VERSION;
     return axtls_version;

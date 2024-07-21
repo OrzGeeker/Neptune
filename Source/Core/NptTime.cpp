@@ -78,6 +78,16 @@ NPT_TimeStamp::NPT_TimeStamp(double seconds)
 }
 
 /*----------------------------------------------------------------------
+|   NPT_TimeStamp::operator=
++---------------------------------------------------------------------*/
+NPT_TimeStamp&
+NPT_TimeStamp::operator=(const NPT_TimeStamp& t)
+{
+    m_NanoSeconds = t.m_NanoSeconds;
+    return *this;
+}
+
+/*----------------------------------------------------------------------
 |   NPT_TimeStamp::operator+=
 +---------------------------------------------------------------------*/
 NPT_TimeStamp&
