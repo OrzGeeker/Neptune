@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -3205,156 +3205,249 @@
 /* Begin PBXTargetDependency section */
 		CA197D270E1AE4540018E87C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA197D1D0E1AE4360018E87C /* QueueTest1 */;
 			targetProxy = CA197D260E1AE4540018E87C /* PBXContainerItemProxy */;
 		};
 		CA261074127EB817008E2D29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA2F54230EC115E600AEBC12 /* TlsTest1 */;
 			targetProxy = CA261073127EB817008E2D29 /* PBXContainerItemProxy */;
 		};
 		CA30B77A0F0DCEFE0085B46E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA30B76A0F0DCE990085B46E /* LoggingTest2 */;
 			targetProxy = CA30B7790F0DCEFE0085B46E /* PBXContainerItemProxy */;
 		};
 		CA451F731252BE430045CF69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA790DA81233BDC100875081 /* NetGet */;
 			targetProxy = CA451F721252BE430045CF69 /* PBXContainerItemProxy */;
 		};
 		CA7848420F3B6E71009E84AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA78483C0F3B6E69009E84AD /* MiniHttpServer */;
 			targetProxy = CA7848410F3B6E71009E84AD /* PBXContainerItemProxy */;
 		};
 		CA8066511187BD20009D099D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA8066481187BD08009D099D /* DigestsTest1 */;
 			targetProxy = CA8066501187BD20009D099D /* PBXContainerItemProxy */;
 		};
 		CA9958A81046FFF60073F34A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA99589F1046FFC70073F34A /* HttpClientTest2 */;
 			targetProxy = CA9958A71046FFF60073F34A /* PBXContainerItemProxy */;
 		};
 		CA9DDC5110AE2820008B871E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAF2EFD60E64A27200948C04 /* FileTest1 */;
 			targetProxy = CA9DDC5010AE2820008B871E /* PBXContainerItemProxy */;
 		};
 		CA9DDC6E10AE3DFD008B871E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA9DDC6510AE3DD6008B871E /* FileTest2 */;
 			targetProxy = CA9DDC6D10AE3DFD008B871E /* PBXContainerItemProxy */;
 		};
 		CAAAA08412FF827D00ABC84B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAAAA07B12FF824E00ABC84B /* NetResolve */;
 			targetProxy = CAAAA08312FF827D00ABC84B /* PBXContainerItemProxy */;
 		};
 		CAE063D71241479100E5AFC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA8069D8118B577E009D099D /* CryptoTest1 */;
 			targetProxy = CAE063D61241479100E5AFC4 /* PBXContainerItemProxy */;
 		};
 		CAE063D91241479800E5AFC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA289DB610E31600001BC817 /* SocketsTest1 */;
 			targetProxy = CAE063D81241479800E5AFC4 /* PBXContainerItemProxy */;
 		};
 		CAE063DB124147A100E5AFC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA4090C310AA257B00ED81C5 /* TimeTest1 */;
 			targetProxy = CAE063DA124147A100E5AFC4 /* PBXContainerItemProxy */;
 		};
 		CAE063DD124147B300E5AFC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA97E01F0E2FDFB30090CC9B /* StreamsTest1 */;
 			targetProxy = CAE063DC124147B300E5AFC4 /* PBXContainerItemProxy */;
 		};
 		CAE417710E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE416B80E0DBDF800A530D1 /* ArraysTest1 */;
 			targetProxy = CAE417700E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417730E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE416C50E0DBE2F00A530D1 /* BufferedStreamsTest1 */;
 			targetProxy = CAE417720E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417750E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CA550D4A0D20A37E00B22D72 /* HttpServerTest1 */;
 			targetProxy = CAE417740E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417770E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE416D20E0DBE5A00A530D1 /* HttpClientTest1 */;
 			targetProxy = CAE417760E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417790E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE416DF0E0DBE7F00A530D1 /* ListsTest1 */;
 			targetProxy = CAE417780E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE4177B0E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE416EC0E0DBEAF00A530D1 /* LoggingTest1 */;
 			targetProxy = CAE4177A0E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE4177D0E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE416F90E0DBEDD00A530D1 /* MapsTest1 */;
 			targetProxy = CAE4177C0E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE4177F0E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417060E0DBF0900A530D1 /* MessagesTest1 */;
 			targetProxy = CAE4177E0E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417810E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417130E0DBF2800A530D1 /* MessagesTest2 */;
 			targetProxy = CAE417800E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417830E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE4169A0E0DBD6600A530D1 /* MiscTest1 */;
 			targetProxy = CAE417820E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417850E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE4172C0E0DC03500A530D1 /* RingBufferTest1 */;
 			targetProxy = CAE417840E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417870E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAA97A100CF1654A00C01909 /* StringsTest1 */;
 			targetProxy = CAE417860E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417890E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417390E0DC06700A530D1 /* ThreadsTest1 */;
 			targetProxy = CAE417880E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE4178B0E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417460E0DC08C00A530D1 /* UdpTest1 */;
 			targetProxy = CAE4178A0E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE4178D0E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417530E0DC0A800A530D1 /* UrlTest1 */;
 			targetProxy = CAE4178C0E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE4178F0E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAA97A000CF164A700C01909 /* XmlTest1 */;
 			targetProxy = CAE4178E0E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417910E0DC10600A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417600E0DC0D200A530D1 /* ZipTest1 */;
 			targetProxy = CAE417900E0DC10600A530D1 /* PBXContainerItemProxy */;
 		};
@@ -3365,21 +3458,33 @@
 		};
 		CAE417E40E0DC1FD00A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE4179C0E0DC13A00A530D1 /* NetPump */;
 			targetProxy = CAE417E30E0DC1FD00A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417E60E0DC1FD00A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417BA0E0DC19400A530D1 /* NetEcho */;
 			targetProxy = CAE417E50E0DC1FD00A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417E80E0DC1FD00A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417C70E0DC1B400A530D1 /* NetConfig */;
 			targetProxy = CAE417E70E0DC1FD00A530D1 /* PBXContainerItemProxy */;
 		};
 		CAE417EA0E0DC1FD00A530D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAE417D40E0DC1D600A530D1 /* NetPing */;
 			targetProxy = CAE417E90E0DC1FD00A530D1 /* PBXContainerItemProxy */;
 		};
@@ -3400,6 +3505,9 @@
 		};
 		E4FCC8621B1E464B00CCA327 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
 			target = CAC8F0A016AB54EA00C49741 /* NetBench */;
 			targetProxy = E4FCC8611B1E464B00CCA327 /* PBXContainerItemProxy */;
 		};
@@ -5025,12 +5133,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Neptune-Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -5063,6 +5172,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -5103,12 +5214,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Neptune-Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -5141,7 +5253,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
