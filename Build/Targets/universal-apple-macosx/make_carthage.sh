@@ -31,13 +31,16 @@ do
     BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 
     platform_framework_path="${platform_framework_output_dir}.xcarchive/Products/Library/Frameworks/${scheme_name}.framework"
+    platform_framework_dSYM_path="${platform_framework_output_dir}.xcarchive/dSYMs/${scheme_name}.framework.dSYM"
 
     case "${platform}" in
         "iOS")
             cp -r "${platform_framework_path}" "${carthage_build_dir_ios}" 
+            cp -r "${platform_framework_dSYM_path}" "${carthage_build_dir_ios}"
             ;;
         "macOS")
             cp -r "${platform_framework_path}" "${carthage_build_dir_mac}" 
+            cp -r "${platform_framework_dSYM_path}" "${carthage_build_dir_mac}" 
             ;;
         *);;
     esac
