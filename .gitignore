@@ -25,6 +25,7 @@ Carthage
 Scripts/apple_wwdr.cer
 Build/Targets/universal-apple-macosx/Neptune.xcodeproj/xcuserdata
 Build/Targets/universal-apple-macosx/cov-int
+Build/Targets/universal-apple-macosx/output
 Build/Targets/x86-microsoft-win32-vs20*/*/Debug
 Build/Targets/x86-microsoft-win32-vs20*/*/Release
 Build/Targets/arm-android-linux/Debug
