@@ -5,11 +5,19 @@
 
 xcframework_cmd="xcodebuild -create-xcframework"
 
+archive_dir="./output"
+scheme_name="Neptune"
+
+if [ -d "${archive_dir}" ]; then
+    rm -rf "${archive_dir}"
+    echo remove dir: ${archive_dir}
+fi
+
 for platform in "iOS" "iOS Simulator" "macOS"
 do
-    scheme_name="Neptune"
-    archive_dir="./output"
-    platform_framework_output_dir="${archive_dir}/${platform}"
+    
+    
+    platform_framework_output_dir="${archive_dir}/${platform// /_}"
 
     xcodebuild archive \
     -scheme "${scheme_name}" \
@@ -22,6 +30,14 @@ do
     xcframework_cmd="${xcframework_cmd} -framework ${platform_framework_path}"
 done
 
-xcframework_cmd="${xcframework_cmd} -output ${archive_dir}/${scheme_name}.xcframework"
+xcframework_name="${scheme_name}.xcframework"
+xcframework_output_path="${archive_dir}/${xcframework_name}"
+xcframework_cmd="${xcframework_cmd} -output ${xcframework_output_path}"
+
 eval "${xcframework_cmd}"
 echo "${xcframework_cmd}"
+
+if [ -d "${xcframework_output_path}" ]; then
+    echo ouput xcframework path: ${xcframework_output_path} 
+    zip -r "${xcframework_output_path}.zip" "${xcframework_output_path}"
+fi
