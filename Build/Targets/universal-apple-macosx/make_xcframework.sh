@@ -13,7 +13,7 @@ if [ -d "${archive_dir}" ]; then
     echo remove dir: ${archive_dir}
 fi
 
-for platform in "iOS" "iOS Simulator" "macOS"
+for platform in "iOS" "iOS Simulator" "macOS" "watchOS" "watchOS Simulator" "tvOS" "tvOS Simulator"
 do
     
     
