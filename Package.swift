@@ -20,8 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "Neptune", 
-            url: "https://github.com/OrzGeeker/Neptune/releases/download/0.0.1/Neptune.xcframework.zip", 
-            checksum: "a4e7590ddd76726ae13b6fc6a1f51ca4426bf68336065ae1a4b68e7b7ae8677f"
+            url: "https://github.com/OrzGeeker/Neptune/releases/download/0.0.3/Neptune.xcframework.zip", 
+            checksum: "e2b13b9ac008c5779e10ec1e7290172a5ad1f63ba039a2236877e55a3ba8c255"
         ),
     ]
 )
