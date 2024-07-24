@@ -31,6 +31,7 @@ do
 done
 
 xcframework_name="${scheme_name}.xcframework"
+xcframework_zip_name="${xcframework_name}.zip"
 xcframework_output_path="${archive_dir}/${xcframework_name}"
 xcframework_cmd="${xcframework_cmd} -output ${xcframework_output_path}"
 
@@ -39,7 +40,7 @@ echo "${xcframework_cmd}"
 
 if [ -d "${xcframework_output_path}" ]; then
     echo ouput xcframework path: ${xcframework_output_path} 
-    cd $archive_dir && zip -r "${xcframework_output_path}.zip" "${xcframework_output_path}"
-    spm_xcframework_checksum=$(swift package compute-checksum "${xcframework_output_path}.zip")
+    cd $archive_dir && zip -r "${xcframework_zip_name}" "${xcframework_name}"
+    spm_xcframework_checksum=$(swift package compute-checksum "${xcframework_zip_name}")
     echo "spm_xcframework_checksum: ${spm_xcframework_checksum}"
 fi
