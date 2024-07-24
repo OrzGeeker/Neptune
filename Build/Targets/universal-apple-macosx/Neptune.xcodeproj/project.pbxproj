@@ -157,8 +157,7 @@
 		CAF26E9918C74B110015ABB9 /* ZipTest2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAF26E9818C74B110015ABB9 /* ZipTest2.cpp */; };
 		CAF26EAA18C7FF820015ABB9 /* ZipHttpServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAF26EA918C7FF820015ABB9 /* ZipHttpServer.cpp */; };
 		CAF2EFDE0E64A2AB00948C04 /* FileTest1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAF2EFD30E64A25700948C04 /* FileTest1.cpp */; };
-		E2E238D12C50B360000CD976 /* Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B10B8EB27400C1E90D /* Neptune.h */; };
-		E2E238D52C50B55E000CD976 /* Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8BA01AD86D3A0041A617 /* Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E238EA2C50BCC1000CD976 /* Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8BA01AD86D3A0041A617 /* Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E44E2AA01AE75CD20092347B /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFC5B0118051C7000169F5A /* adler32.c */; };
 		E44E2AA11AE75CD20092347B /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFC5B0218051C7000169F5A /* compress.c */; };
 		E44E2AA21AE75CD20092347B /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFC5B0318051C7000169F5A /* crc32.c */; };
@@ -225,55 +224,55 @@
 		E44E2ADF1AE75CD20092347B /* NptStdcDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F912B7000B8EB27400C1E90D /* NptStdcDebug.cpp */; };
 		E44E2AE01AE75CD20092347B /* NptStdcEnvironment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F912B7010B8EB27400C1E90D /* NptStdcEnvironment.cpp */; };
 		E44E2AE11AE75CD20092347B /* NptStdcFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F912B7020B8EB27400C1E90D /* NptStdcFile.cpp */; };
-		E44E2AE51AE75CD20092347B /* NptArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B20B8EB27400C1E90D /* NptArray.h */; };
-		E44E2AE61AE75CD20092347B /* NptAutomaticCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8B171AD868A80041A617 /* NptAutomaticCleaner.h */; };
-		E44E2AE71AE75CD20092347B /* NptAutoreleasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CA77C17E14C259AB00442B97 /* NptAutoreleasePool.h */; };
-		E44E2AE81AE75CD20092347B /* NptBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B40B8EB27400C1E90D /* NptBase64.h */; };
-		E44E2AE91AE75CD20092347B /* NptBufferedStreams.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B60B8EB27400C1E90D /* NptBufferedStreams.h */; };
-		E44E2AEA1AE75CD20092347B /* NptCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B80B8EB27400C1E90D /* NptCommon.h */; };
-		E44E2AEB1AE75CD20092347B /* NptConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B90B8EB27400C1E90D /* NptConfig.h */; };
-		E44E2AEC1AE75CD20092347B /* NptConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6BB0B8EB27400C1E90D /* NptConsole.h */; };
-		E44E2AED1AE75CD20092347B /* NptConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6BC0B8EB27400C1E90D /* NptConstants.h */; };
-		E44E2AEE1AE75CD20092347B /* NptCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = CA806988118A602B009D099D /* NptCrypto.h */; };
-		E44E2AEF1AE75CD20092347B /* NptDataBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6BE0B8EB27400C1E90D /* NptDataBuffer.h */; };
-		E44E2AF01AE75CD20092347B /* NptDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C00B8EB27400C1E90D /* NptDebug.h */; };
-		E44E2AF11AE75CD20092347B /* NptDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C10B8EB27400C1E90D /* NptDefs.h */; };
-		E44E2AF21AE75CD20092347B /* NptDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEB8EC211864F0B00B4AF01 /* NptDigest.h */; };
-		E44E2AF31AE75CD20092347B /* NptDynamicCast.h in Headers */ = {isa = PBXBuildFile; fileRef = CA926A4F0F8BEB50003CB74E /* NptDynamicCast.h */; };
-		E44E2AF41AE75CD20092347B /* NptDynamicLibraries.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1D056D0E68E29C00E3DEE8 /* NptDynamicLibraries.h */; };
-		E44E2AF51AE75CD20092347B /* NptFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C30B8EB27400C1E90D /* NptFile.h */; };
-		E44E2AF61AE75CD20092347B /* NptHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD78DD212A99DC500D7EBA7 /* NptHash.h */; };
-		E44E2AF71AE75CD20092347B /* NptHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C50B8EB27400C1E90D /* NptHttp.h */; };
-		E44E2AF81AE75CD20092347B /* NptInterfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C60B8EB27400C1E90D /* NptInterfaces.h */; };
-		E44E2AF91AE75CD20092347B /* NptJson.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2EF627154DDFA700933B11 /* NptJson.h */; };
-		E44E2AFA1AE75CD20092347B /* NptList.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C80B8EB27400C1E90D /* NptList.h */; };
-		E44E2AFB1AE75CD20092347B /* NptLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CA0B8EB27400C1E90D /* NptLogging.h */; };
-		E44E2AFC1AE75CD20092347B /* NptMap.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CB0B8EB27400C1E90D /* NptMap.h */; };
-		E44E2AFD1AE75CD20092347B /* NptMessaging.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CD0B8EB27400C1E90D /* NptMessaging.h */; };
-		E44E2AFE1AE75CD20092347B /* NptNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CF0B8EB27400C1E90D /* NptNetwork.h */; };
-		E44E2AFF1AE75CD20092347B /* NptSelectableMessageQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D60B8EB27400C1E90D /* NptSelectableMessageQueue.h */; };
-		E44E2B001AE75CD20092347B /* NptSimpleMessageQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D80B8EB27400C1E90D /* NptSimpleMessageQueue.h */; };
-		E44E2B011AE75CD20092347B /* NptQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D10B8EB27400C1E90D /* NptQueue.h */; };
-		E44E2B021AE75CD20092347B /* NptReferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D20B8EB27400C1E90D /* NptReferences.h */; };
-		E44E2B031AE75CD20092347B /* NptResults.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D30B8EB27400C1E90D /* NptResults.h */; };
-		E44E2B041AE75CD20092347B /* NptTls.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFB236F0EC760FE009C3459 /* NptTls.h */; };
-		E44E2B051AE75CD20092347B /* NptRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D50B8EB27400C1E90D /* NptRingBuffer.h */; };
-		E44E2B061AE75CD20092347B /* NptSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1D056E0E68E29C00E3DEE8 /* NptSerialPort.h */; };
-		E44E2B071AE75CD20092347B /* NptSockets.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DA0B8EB27400C1E90D /* NptSockets.h */; };
-		E44E2B081AE75CD20092347B /* NptStack.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DB0B8EB27400C1E90D /* NptStack.h */; };
-		E44E2B091AE75CD20092347B /* NptStreams.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DD0B8EB27400C1E90D /* NptStreams.h */; };
-		E44E2B0B1AE75CD20092347B /* NptStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DF0B8EB27400C1E90D /* NptStrings.h */; };
-		E44E2B0C1AE75CD20092347B /* NptSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E10B8EB27400C1E90D /* NptSystem.h */; };
-		E44E2B0D1AE75CD20092347B /* NptThreads.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E30B8EB27400C1E90D /* NptThreads.h */; };
-		E44E2B0E1AE75CD20092347B /* NptTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E50B8EB27400C1E90D /* NptTime.h */; };
-		E44E2B0F1AE75CD20092347B /* NptVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6EB0B8EB27400C1E90D /* NptVersion.h */; };
-		E44E2B101AE75CD20092347B /* NptTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E60B8EB27400C1E90D /* NptTypes.h */; };
-		E44E2B111AE75CD20092347B /* NptUri.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E80B8EB27400C1E90D /* NptUri.h */; };
-		E44E2B121AE75CD20092347B /* NptUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6EA0B8EB27400C1E90D /* NptUtils.h */; };
-		E44E2B131AE75CD20092347B /* NptXml.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6ED0B8EB27400C1E90D /* NptXml.h */; };
-		E44E2B141AE75CD20092347B /* NptTlsDefaultTrustAnchorsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8D671ADB808A0041A617 /* NptTlsDefaultTrustAnchorsBase.h */; };
-		E44E2B151AE75CD20092347B /* NptTlsDefaultTrustAnchorsExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8D681ADB808A0041A617 /* NptTlsDefaultTrustAnchorsExtended.h */; };
-		E44E2B161AE75CD20092347B /* NptZip.h in Headers */ = {isa = PBXBuildFile; fileRef = CA84EC7A0C7E5A7000CC9622 /* NptZip.h */; };
+		E44E2AE51AE75CD20092347B /* NptArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B20B8EB27400C1E90D /* NptArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AE61AE75CD20092347B /* NptAutomaticCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8B171AD868A80041A617 /* NptAutomaticCleaner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AE71AE75CD20092347B /* NptAutoreleasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CA77C17E14C259AB00442B97 /* NptAutoreleasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AE81AE75CD20092347B /* NptBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B40B8EB27400C1E90D /* NptBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AE91AE75CD20092347B /* NptBufferedStreams.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B60B8EB27400C1E90D /* NptBufferedStreams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AEA1AE75CD20092347B /* NptCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B80B8EB27400C1E90D /* NptCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AEB1AE75CD20092347B /* NptConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6B90B8EB27400C1E90D /* NptConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AEC1AE75CD20092347B /* NptConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6BB0B8EB27400C1E90D /* NptConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AED1AE75CD20092347B /* NptConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6BC0B8EB27400C1E90D /* NptConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AEE1AE75CD20092347B /* NptCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = CA806988118A602B009D099D /* NptCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AEF1AE75CD20092347B /* NptDataBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6BE0B8EB27400C1E90D /* NptDataBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF01AE75CD20092347B /* NptDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C00B8EB27400C1E90D /* NptDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF11AE75CD20092347B /* NptDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C10B8EB27400C1E90D /* NptDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF21AE75CD20092347B /* NptDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEB8EC211864F0B00B4AF01 /* NptDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF31AE75CD20092347B /* NptDynamicCast.h in Headers */ = {isa = PBXBuildFile; fileRef = CA926A4F0F8BEB50003CB74E /* NptDynamicCast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF41AE75CD20092347B /* NptDynamicLibraries.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1D056D0E68E29C00E3DEE8 /* NptDynamicLibraries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF51AE75CD20092347B /* NptFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C30B8EB27400C1E90D /* NptFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF61AE75CD20092347B /* NptHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD78DD212A99DC500D7EBA7 /* NptHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF71AE75CD20092347B /* NptHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C50B8EB27400C1E90D /* NptHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF81AE75CD20092347B /* NptInterfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C60B8EB27400C1E90D /* NptInterfaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AF91AE75CD20092347B /* NptJson.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2EF627154DDFA700933B11 /* NptJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AFA1AE75CD20092347B /* NptList.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6C80B8EB27400C1E90D /* NptList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AFB1AE75CD20092347B /* NptLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CA0B8EB27400C1E90D /* NptLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AFC1AE75CD20092347B /* NptMap.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CB0B8EB27400C1E90D /* NptMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AFD1AE75CD20092347B /* NptMessaging.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CD0B8EB27400C1E90D /* NptMessaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AFE1AE75CD20092347B /* NptNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6CF0B8EB27400C1E90D /* NptNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2AFF1AE75CD20092347B /* NptSelectableMessageQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D60B8EB27400C1E90D /* NptSelectableMessageQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B001AE75CD20092347B /* NptSimpleMessageQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D80B8EB27400C1E90D /* NptSimpleMessageQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B011AE75CD20092347B /* NptQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D10B8EB27400C1E90D /* NptQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B021AE75CD20092347B /* NptReferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D20B8EB27400C1E90D /* NptReferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B031AE75CD20092347B /* NptResults.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D30B8EB27400C1E90D /* NptResults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B041AE75CD20092347B /* NptTls.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFB236F0EC760FE009C3459 /* NptTls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B051AE75CD20092347B /* NptRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6D50B8EB27400C1E90D /* NptRingBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B061AE75CD20092347B /* NptSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1D056E0E68E29C00E3DEE8 /* NptSerialPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B071AE75CD20092347B /* NptSockets.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DA0B8EB27400C1E90D /* NptSockets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B081AE75CD20092347B /* NptStack.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DB0B8EB27400C1E90D /* NptStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B091AE75CD20092347B /* NptStreams.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DD0B8EB27400C1E90D /* NptStreams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B0B1AE75CD20092347B /* NptStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6DF0B8EB27400C1E90D /* NptStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B0C1AE75CD20092347B /* NptSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E10B8EB27400C1E90D /* NptSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B0D1AE75CD20092347B /* NptThreads.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E30B8EB27400C1E90D /* NptThreads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B0E1AE75CD20092347B /* NptTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E50B8EB27400C1E90D /* NptTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B0F1AE75CD20092347B /* NptVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6EB0B8EB27400C1E90D /* NptVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B101AE75CD20092347B /* NptTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E60B8EB27400C1E90D /* NptTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B111AE75CD20092347B /* NptUri.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6E80B8EB27400C1E90D /* NptUri.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B121AE75CD20092347B /* NptUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6EA0B8EB27400C1E90D /* NptUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B131AE75CD20092347B /* NptXml.h in Headers */ = {isa = PBXBuildFile; fileRef = F912B6ED0B8EB27400C1E90D /* NptXml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B141AE75CD20092347B /* NptTlsDefaultTrustAnchorsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8D671ADB808A0041A617 /* NptTlsDefaultTrustAnchorsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B151AE75CD20092347B /* NptTlsDefaultTrustAnchorsExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8D681ADB808A0041A617 /* NptTlsDefaultTrustAnchorsExtended.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44E2B161AE75CD20092347B /* NptZip.h in Headers */ = {isa = PBXBuildFile; fileRef = CA84EC7A0C7E5A7000CC9622 /* NptZip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4AD606F22E6DC6C00F9FE08 /* libaxTLS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1A5EA90EC0152A00A9040C /* libaxTLS.a */; };
 		E4AD607C22E6F3D900F9FE08 /* Neptune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44E2B1B1AE75CD20092347B /* Neptune.framework */; };
 		E4AD607D22E6F3DE00F9FE08 /* Neptune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44E2B1B1AE75CD20092347B /* Neptune.framework */; };
@@ -1977,16 +1976,15 @@
 				E44E2AE81AE75CD20092347B /* NptBase64.h in Headers */,
 				E44E2AE91AE75CD20092347B /* NptBufferedStreams.h in Headers */,
 				E44E2AEA1AE75CD20092347B /* NptCommon.h in Headers */,
-				E2E238D52C50B55E000CD976 /* Neptune.h in Headers */,
 				E44E2AEC1AE75CD20092347B /* NptConsole.h in Headers */,
 				E44E2AEE1AE75CD20092347B /* NptCrypto.h in Headers */,
 				E44E2AEF1AE75CD20092347B /* NptDataBuffer.h in Headers */,
 				E44E2AF01AE75CD20092347B /* NptDebug.h in Headers */,
 				E44E2AF11AE75CD20092347B /* NptDefs.h in Headers */,
 				E44E2AF21AE75CD20092347B /* NptDigest.h in Headers */,
+				E2E238EA2C50BCC1000CD976 /* Neptune.h in Headers */,
 				E44E2AF31AE75CD20092347B /* NptDynamicCast.h in Headers */,
 				E44E2AF41AE75CD20092347B /* NptDynamicLibraries.h in Headers */,
-				E2E238D12C50B360000CD976 /* Neptune.h in Headers */,
 				E44E2AF51AE75CD20092347B /* NptFile.h in Headers */,
 				E44E2AF61AE75CD20092347B /* NptHash.h in Headers */,
 				E44E2AF71AE75CD20092347B /* NptHttp.h in Headers */,
@@ -5098,7 +5096,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5181,7 +5178,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
