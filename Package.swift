@@ -21,7 +21,7 @@ let package = Package(
         .binaryTarget(
             name: "Neptune", 
             url: "https://github.com/OrzGeeker/Neptune/releases/download/0.0.3/Neptune.xcframework.zip", 
-            checksum: "e2b13b9ac008c5779e10ec1e7290172a5ad1f63ba039a2236877e55a3ba8c255"
+            checksum: "da61fd233587c8d690efed311f65f2c7009cfc6af21357e6f5d162b27120180b"
         ),
     ]
 )
